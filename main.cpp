@@ -20,11 +20,15 @@ int main()
     //insert elements into the map!
     
     map1.insert(pair<int, int>(2,4));
-    map2.insert(pair<string, int>("emmanuel", 28));
+    map1.insert(pair<int, int>(6,8));
+    map1.insert(pair<int, int>(10,12));
+    map2.insert(pair<string, int>("emmanuel", 347));
+    map2.insert(pair<string, int>("idehen", 323));
+    map2.insert(pair<string, int>("osagumwenro", 1538));
     //using a range based for loop, output the elements in map1 and map2
     for(auto x : map1)
     {
-        std::cout << x.first << x.second << "\n";
+        std::cout << x.first <<" "<< x.second << "\n";
     }
     for(auto x : map2)
     {
